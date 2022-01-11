@@ -44,6 +44,10 @@ lim \ f(x): x \rightarrow - \infty
 $$
 
 # Stochastik
+## Erwartungswert
+$$
+E(x) = 1 * P(X = 1) + 2 * P(X = 2) + 3* P(X = 3) + ...
+$$
 ## Binomialkoeffizient
 $$
 \binom{n}{k} =  \frac{n!}{k!\,(n-k)!}
