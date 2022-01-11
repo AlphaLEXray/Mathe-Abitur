@@ -44,7 +44,35 @@ lim \ f(x): x \rightarrow - \infty
 $$
 
 # Stochastik
+## Vier-Felder Tafel
+
+||$B$|$\overline{B}$||
+|:-----:|:-----:|:-----:|:-----:|
+|$A$|Wahrscheinlichkeit $AB$|Wahrscheinlichkeit $A\overline{B}$|Wahrscheinlichkeit $A$|
+|$\overline{A}$|Wahrscheinlichkeit $\overline{A}B$|Wahrscheinlichkeit $\overline{AB}$|Wahrscheinlichkeit $\overline{A}$|
+||Wahrscheinlichkeit $B$|Wahrscheinlichkeit $\overline{B}$|$1$|
+
+**Beispiel**:
+||$B$|$\overline{B}$||
+|:-----:|:-----:|:-----:|:-----:|
+|$A$|$0.21$|$0.49$|$0.7$|
+|$\overline{A}$|$0.06$|$0.24$|$0.3$|
+||$0.27$|$0.73$|$1$|
+
 ## Sigma-Regeln
+**Intervalle abschätzen für σ > 3**
+
+### Erwartungswert μ
+$$
+\mu = n*p
+$$
+
+### Standardabweichung
+$$
+\sigma = \sqrt{n*p*(1-p)}
+$$
+
+### Sigma-Regeln anwenden
 $$
 \text{Gegeben: }n, \ p \\
 \mu = n * p \\
@@ -58,7 +86,7 @@ P( \mu -d \text{ (abrunden)} <X \mu + d \text{ (aufrunden)}) \\
 \text{Das Ergebnis welches am nächsten über 0.9 liegt ist das bessere Ergebnis}
 $$
 
-### Beispiel
+**Beispiel**:
 $$
 n = 920, \ p = 58 \% \\
 \mu = 920 * 0.58 = 533.6 \\
