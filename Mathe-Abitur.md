@@ -44,6 +44,11 @@ lim \ f(x): x \rightarrow - \infty
 $$
 
 # Stochastik
+$$
+\text{binomPDF: } P(X=Y) = \binom{n}{k}*p^{k}*(1-p)^{n-k} \\
+\text{binomCDF: } P(X\leq Y) = p(x=y) + p(x=y-1) + ... + p(x=y-y)
+$$
+
 ## Vier-Felder Tafel
 
 ||$B$|$\overline{B}$||
@@ -58,6 +63,11 @@ $$
 |$A$|$0.21$|$0.49$|$0.7$|
 |$\overline{A}$|$0.06$|$0.24$|$0.3$|
 ||$0.27$|$0.73$|$1$|
+
+## Empirische Standardabweichung
+$$
+\overline{s} = \sqrt{p_{1}*(x_{1}-\overline{x})^{2}+p_{2}*(x_{2}-\overline{x})^{2}+p_{3}*(x-\overline{x})^{3}+...}
+$$
 
 ## Sigma-Regeln
 **Intervalle abschätzen für σ > 3**
@@ -98,3 +108,4 @@ P(510 \leq X \leq 558) = 0.8982\\
 P(509 \leq X \leq 559) = 0.9114\\
 \rightarrow P(509 \leq X \leq 559) \text{ ist das richtige Ergebnis}
 $$
+
