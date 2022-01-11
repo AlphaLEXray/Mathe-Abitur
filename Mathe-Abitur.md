@@ -80,7 +80,11 @@ $$
 
 ## Sigma-Regeln
 **Intervalle abschätzen für σ > 3**
-
+$$
+90\% \rightarrow 1.64*\sigma \\
+95\% \rightarrow 1.96*\sigma \\
+99\% \rightarrow 2.58*\sigma
+$$
 ### Erwartungswert μ
 $$
 \mu = n*p
@@ -91,7 +95,7 @@ $$
 \sigma = \sqrt{n*p*(1-p)}
 $$
 
-### Sigma-Regeln anwenden
+### Sigma-Regeln anwenden (mit 90%)
 $$
 \text{Gegeben: }n, \ p \\
 \mu = n * p \\
