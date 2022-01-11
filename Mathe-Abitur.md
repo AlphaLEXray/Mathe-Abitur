@@ -44,6 +44,11 @@ lim \ f(x): x \rightarrow - \infty
 $$
 
 # Stochastik
+## Binomialkoeffizient
+$$
+\binom{n}{k} =  \frac{n!}{k!\,(n-k)!}
+$$
+
 $$
 \text{binomPDF: } P(X=Y) = \binom{n}{k}*p^{k}*(1-p)^{n-k} \\
 \text{binomCDF: } P(X\leq Y) = p(x=y) + p(x=y-1) + ... + p(x=y-y)
