@@ -18,8 +18,30 @@
 	- [Sigma-Regeln](#sigma-regeln)
 		-  Erwartungswert μ
 		- Standardabweichung
+- Bearbeitung einer Textaufgabe in der Klausur
 
 # Kurvendiskussion
+## Übersicht
+1. Definitionsbereich: $x \in \mathbb{R}$
+2. Symetrie:
+	1. Achsensymetrie: $f(x) = f(-x)$
+	2. Punktsymetrie: $f(-x) = -f(x)$
+3. Achsenschnittpunkt:
+	1. y-Achse: $f(0)$
+	2. x-Achse/Nullstellen: $f(x)=0$
+4. Extrempunkte:
+	1. Notwendige Bedingung: $f^{\prime}(x)=0$
+	2. Hinreichende Bedingung: $f^{\prime}(x)=0 \ \& f^{\prime\prime}(x) \neq0$
+	3. Hochpunkt: $f^{\prime\prime}(x) < 0$
+	4. Tiefpunkt: $f^{\prime\prime}(x)>0$
+5. Wendepunkte
+	1. Notwendige Bedingung: $f^{\prime\prime}(x)=0$
+	2. Hinreichende Bedingung: $f^{\prime\prime}(x)=0 \ \& f^{\prime\prime\prime}(x) \neq0$
+	3. Links-Rechts-Wendepunkt: $f^{\prime\prime\prime}(x) < 0$
+	4. Rechts-Links-Wendepunkt: $f^{\prime\prime\prime}(x)>0$
+6. Sattelpunkt:
+	1. Notwendige Bedingung: $f^{\prime}(x)=0$
+	2. Hinreichende Bedingung: $f^{\prime\prime}(x)=0$
 ## Nullstellen
 ### PQ-Formel
 $$
@@ -46,6 +68,11 @@ f^{\prime\prime}(x)=- \rightarrow  \textbf{ Hochpunkt}  \text{, Rechstkrümmung}
 f^{\prime\prime}(x)=+ \rightarrow  \textbf{ Tiefpunkt} \text{, Linkskümmung} \\
 \text{Einsetzten in f(x): }f(x)=a
 $$
+## Sattelpunkte
+$$
+\text{Notwendige Bedingung: }f^{\prime}(x)=0 \\
+\text{Hinreichende Bedingung: }f^{\prime\prime}(x)=0
+$$
 ## Definitionsbereich
 $$
  \text{z.B.: }e\in \mathbb{R}
@@ -55,6 +82,10 @@ $$
 lim \ f(x): x \rightarrow \infty \\
 lim \ f(x): x \rightarrow - \infty
 $$
+## Symetrie
+**Achsensymetrie**: $f(x) = f(-x)$
+**Punktsymetrie**: $f(-x) = -f(x)$
+
 
 # Stochastik
 ## Erwartungswert
@@ -134,4 +165,15 @@ P(510 \leq X \leq 558) = 0.8982\\
 P(509 \leq X \leq 559) = 0.9114\\
 \rightarrow P(509 \leq X \leq 559) \text{ ist das richtige Ergebnis}
 $$
-
+# Bearbeitung einer Textaufgabe in der Klausur
+1. $f(x)$ 
+	$f^{\prime}(x)$
+	$f^{\prime\prime}(x)$
+	$f^{\prime\prime\prime}(x)$
+	hinschreiben und im CAS definieren
+2. Worfür steht x bzw. t
+	Wofür steht f(x) bzw. A(t)
+	&rarr; Was bedeutet $f^{\prime}$ bzw. $A^{\prime}(x)$
+3. Teilaufgaben genau lesen:
+	Ist x **gegeben** oder **gesucht** ?
+	Ist f(x) **gegeben** oder **gesucht** ?
