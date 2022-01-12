@@ -86,7 +86,13 @@ $$
 **Achsensymetrie**: $f(x) = f(-x)$
 **Punktsymetrie**: $f(-x) = -f(x)$
 
+# Vektoren
+## Skalarprodukt
+$$
+\vec{AB} \cdot \vec{AC} = \begin{pmatrix} a \\ b \\ c \end{pmatrix} \cdot \begin{pmatrix} d \\ e \\ f \end{pmatrix} = a*d+b*e+c*f
 
+$$
+## Lage zweier Gerade zu
 # Stochastik
 ## Erwartungswert
 $$
