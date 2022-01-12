@@ -117,6 +117,12 @@ $$
 $$
 \sqrt{a^{2}+b^{2}+c^{2}}
 $$
+**Beispiel**:
+$$
+\sqrt{2^{2}+2^{2}+(-1)^{2}}=
+\sqrt{4+4+1}=
+\sqrt{9}=3
+$$
 ## Punktprobe
 $$
 \begin{pmatrix} 
