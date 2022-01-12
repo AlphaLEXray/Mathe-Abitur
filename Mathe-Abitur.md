@@ -109,9 +109,69 @@ $$
 \begin{pmatrix} 
 x_{1}+y_{1} \\
 x_{2}+y_{2} \\
-x_{3}+y_{3} \\
+x_{3}+y_{3}
 \end{pmatrix}
 \end{pmatrix}
+$$
+## Längenformel eines Vektors
+$$
+\sqrt{a^{2}+b^{2}+c^{2}}
+$$
+## Punktprobe
+$$
+\begin{pmatrix} 
+a_{1} \\
+a_{2} \\
+a_{3}
+\end{pmatrix}+k*
+\begin{pmatrix} 
+b_{1} \\
+b_{2} \\
+b_{3}
+\end{pmatrix}=
+\begin{pmatrix} 
+c_{1} \\
+c_{2} \\
+c_{3}
+\end{pmatrix} \rightarrow
+\begin{vmatrix}
+a_{1}+b_{1}*k=c_{1} \\
+a_{2}+b_{1}*k=c_{2} \\
+a_{3}+b_{1}*k=c_{3}
+\end{vmatrix} \rightarrow
+\begin{vmatrix}
+k=x \\
+k=y \\
+k=z
+\end{vmatrix}
+$$
+**Beispiel**:
+$$
+\begin{pmatrix} 
+-2 \\
+3 \\
+1
+\end{pmatrix}+k*
+\begin{pmatrix} 
+2 \\
+-5 \\
+7
+\end{pmatrix}=
+\begin{pmatrix} 
+-12 \\
+23 \\
+-34
+\end{pmatrix} \rightarrow
+\begin{vmatrix}
+-2+2*k=-12\\
+3-5*k=23\\
+1+7*k=-34
+\end{vmatrix} \rightarrow
+\begin{vmatrix}
+k=-5 \\
+k=-4 \\
+k=-5
+\end{vmatrix}
 $$
 # Stochastik
 ## Erwartungswert
