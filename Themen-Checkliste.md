@@ -6,6 +6,7 @@
 	- [ ] Globalverlauf
 	- [ ] Definitionsbereich
 - [ ] Vektoren
+	- [ ] Skalarprodukt
 - [ ] Integrale
 - [ ] E-Funktionen
 - [ ] Stochastik
@@ -16,3 +17,4 @@
 	- [ ] Empirische Standardabweichung
 	- [ ] Sigma-Regeln
 		- [ ] Erwartungswert μ
+		- [ ] Standardabweichung
