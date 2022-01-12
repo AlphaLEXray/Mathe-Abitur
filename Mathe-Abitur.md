@@ -89,10 +89,30 @@ $$
 # Vektoren
 ## Skalarprodukt
 $$
-\vec{AB} \cdot \vec{AC} = \begin{pmatrix} a \\ b \\ c \end{pmatrix} \cdot \begin{pmatrix} d \\ e \\ f \end{pmatrix} = a*d+b*e+c*f
-
+\vec{AB} \cdot \vec{AC} = 
+\begin{pmatrix} 
+x_{1} \\
+x_{2} \\
+x_{3} 
+\end{pmatrix} \cdot 
+\begin{pmatrix} 
+y_{1} \\
+y_{2} \\
+y_{3}
+\end{pmatrix} = x_{1} *y_{1}+x_{2} *y_{2}+x_{3} *y_{3}
 $$
-## Lage zweier Gerade zu
+## Lage zweier Geraden zueinander bestimmen
+## Mittelpunkt einer Geraden bestimmen
+$$
+\vec{m} = \frac{1}{2}*(\vec{b}+\vec{c})=\frac{1}{2}*
+\begin{pmatrix}
+\begin{pmatrix} 
+x_{1}+y_{1} \\
+x_{2}+y_{2} \\
+x_{3}+y_{3} \\
+\end{pmatrix}
+\end{pmatrix}
+$$
 # Stochastik
 ## Erwartungswert
 $$
