@@ -1,10 +1,23 @@
 # Mathematik
-- Kurvendiskussion
+
+- [Kurvendiskussion](#kurvendiskussion)
+	- Nullstellen
+	- Extrempunkte
+	- Wendepunkte
+	- Globalverlauf
+	- Definitionsbereich
 - Vektoren
 - Integrale
 - E-Funktionen
-- Stochastik
-	- Sigma-Regeln
+- [Stochastik](#stochastik)
+	- Vier-Felder-Tafel
+	- Pfadregeln
+	- Erwartungswert
+	- Binomialkoeffizient
+	- Empirische Standardabweichung
+	- [Sigma-Regeln](#sigma-regeln)
+		-  Erwartungswert μ
+		- Standardabweichung
 
 # Kurvendiskussion
 ## Nullstellen
