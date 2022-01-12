@@ -101,6 +101,9 @@ y_{2} \\
 y_{3}
 \end{pmatrix} = x_{1} *y_{1}+x_{2} *y_{2}+x_{3} *y_{3}
 $$
+Wenn das **Skalarprodukt**:
+- $=0$ ist &rarr; Die Vektoren liegen **orthogonal** zueinander/90°
+- $\neq 0$ ist &rarr; Die Vektoren liegen **nicht** orthogonal zueinander
 ## Lage zweier Geraden zueinander bestimmen
 ## Mittelpunkt einer Geraden bestimmen
 $$
