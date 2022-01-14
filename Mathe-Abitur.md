@@ -52,7 +52,7 @@ $$
 $$
 1. (a+b)^{2} = 2a^{2}+2ab+b^{2} \\
 2. (a-b)^{2} = 2a^{2}-2ab+b^{2} \\
-3. (a+b)^{2}*(a-b)^{2}  = a^{2}-b^{2}
+3. (a+b)^{2}\cdot(a-b)^{2}  = a^{2}-b^{2}
 $$
 ## Wendepunkte
 $$
@@ -89,17 +89,17 @@ $$
 # Vektoren
 ## Skalarprodukt
 $$
-\vec{AB} \cdot \vec{AC} = 
+\vec{AB} * \vec{AC} = 
 \begin{pmatrix} 
 x_{1} \\
 x_{2} \\
 x_{3} 
-\end{pmatrix} \cdot 
+\end{pmatrix} *
 \begin{pmatrix} 
 y_{1} \\
 y_{2} \\
 y_{3}
-\end{pmatrix} = x_{1} *y_{1}+x_{2} *y_{2}+x_{3} *y_{3}
+\end{pmatrix} = x_{1} \cdot y_{1}+x_{2} \cdot y_{2}+x_{3} \cdot y_{3}
 $$
 Wenn das **Skalarprodukt**:
 - $=0$ ist &rarr; Die Vektoren liegen **orthogonal** zueinander/90°
@@ -107,7 +107,7 @@ Wenn das **Skalarprodukt**:
 ## Lage zweier Geraden zueinander bestimmen
 ## Mittelpunkt einer Geraden bestimmen
 $$
-\vec{m} = \frac{1}{2}*(\vec{b}+\vec{c})=\frac{1}{2}*
+\vec{m} = \frac{1}{2} \cdot (\vec{b}+\vec{c})=\frac{1}{2} \cdot
 \begin{pmatrix}
 \begin{pmatrix} 
 x_{1}+y_{1} \\
@@ -132,7 +132,7 @@ $$
 a_{1} \\
 a_{2} \\
 a_{3}
-\end{pmatrix}+k*
+\end{pmatrix}+k \cdot
 \begin{pmatrix} 
 b_{1} \\
 b_{2} \\
@@ -144,9 +144,9 @@ c_{2} \\
 c_{3}
 \end{pmatrix} \rightarrow
 \begin{vmatrix}
-a_{1}+b_{1}*k=c_{1} \\
-a_{2}+b_{1}*k=c_{2} \\
-a_{3}+b_{1}*k=c_{3}
+a_{1}+b_{1} \cdot k=c_{1} \\
+a_{2}+b_{1} \cdot k=c_{2} \\
+a_{3}+b_{1} \cdot k=c_{3}
 \end{vmatrix} \rightarrow
 \begin{vmatrix}
 k=x \\
@@ -160,7 +160,7 @@ $$
 -2 \\
 3 \\
 1
-\end{pmatrix}+k*
+\end{pmatrix}+k \cdot
 \begin{pmatrix} 
 2 \\
 -5 \\
@@ -172,9 +172,9 @@ $$
 -34
 \end{pmatrix} \rightarrow
 \begin{vmatrix}
--2+2*k=-12\\
-3-5*k=23\\
-1+7*k=-34
+-2+2 \cdot k=-12\\
+3-5 \cdot k=23\\
+1+7 \cdot k=-34
 \end{vmatrix} \rightarrow
 \begin{vmatrix}
 k=-5 \\
@@ -185,7 +185,7 @@ $$
 # Stochastik
 ## Erwartungswert
 $$
-E(x) = 1 * P(X = 1) + 2 * P(X = 2) + 3* P(X = 3) + ...
+E(x) = 1 \cdot P(X = 1) + 2 \cdot P(X = 2) + 3 \cdot P(X = 3) + ...
 $$
 ## Binomialkoeffizient
 $$
@@ -193,7 +193,7 @@ $$
 $$
 
 $$
-\text{binomPDF: } P(X=Y) = \binom{n}{k}*p^{k}*(1-p)^{n-k} \\
+\text{binomPDF: } P(X=Y) = \binom{n}{k} \cdot p^{k} \cdot (1-p)^{n-k} \\
 \text{binomCDF: } P(X\leq Y) = p(x=y) + p(x=y-1) + ... + p(x=y-y)
 $$
 
@@ -214,33 +214,33 @@ $$
 
 ## Empirische Standardabweichung
 $$
-\overline{s} = \sqrt{p_{1}*(x_{1}-\overline{x})^{2}+p_{2}*(x_{2}-\overline{x})^{2}+p_{3}*(x-\overline{x})^{3}+...}
+\overline{s} = \sqrt{p_{1} \cdot (x_{1}-\overline{x})^{2}+p_{2} \cdot (x_{2}-\overline{x})^{2}+p_{3} \cdot (x-\overline{x})^{3}+...}
 $$
 
 ## Sigma-Regeln
 **Intervalle abschätzen für σ > 3**
 $$
-90\% \rightarrow 1.64*\sigma \\
-95\% \rightarrow 1.96*\sigma \\
-99\% \rightarrow 2.58*\sigma
+90\% \rightarrow 1.64 \cdot \sigma \\
+95\% \rightarrow 1.96 \cdot \sigma \\
+99\% \rightarrow 2.58 \cdot \sigma
 $$
 ### Erwartungswert μ
 $$
-\mu = n*p
+\mu = n \cdot p
 $$
 
 ### Standardabweichung
 $$
-\sigma = \sqrt{n*p*(1-p)}
+\sigma = \sqrt{n \cdot p \cdot (1-p)}
 $$
 
 ### Sigma-Regeln anwenden (mit 90%)
 $$
 \text{Gegeben: }n, \ p \\
-\mu = n * p \\
-\sigma = \sqrt{n*p*(1-p)} \\
+\mu = n \cdot p \\
+\sigma = \sqrt{n \cdot p \cdot (1-p)} \\
 \text{Wenn } \sigma \text > 3 \text{ ist:} \\
-1,64 * \sigma = d \\
+1,64 \cdot \sigma = d \\
 \mu - d \leq X \leq \mu + d \\
 P( \mu -d \text{ (aufrunden)} <X \mu + d \text{ (abrunden)}) \\
 P( \mu -d \text{ (abrunden)} <X \mu + d \text{ (aufrunden)}) \\
@@ -251,9 +251,9 @@ $$
 **Beispiel**:
 $$
 n = 920, \ p = 58 \% \\
-\mu = 920 * 0.58 = 533.6 \\
-\sigma = \sqrt{920*0.58*0.42} =14.9703 \\
-1.64*14.9703 = 24.5513 \\
+\mu = 920 \cdot 0.58 = 533.6 \\
+\sigma = \sqrt{920 \cdot 0.58 \cdot 0.42} =14.9703 \\
+1.64 \cdot 14.9703 = 24.5513 \\
 533.6-24.5513 \leq X \leq 533.6+24.5513 \\
 \rightarrow 509.0487 \leq X \leq 558.1513 \\
 P(510 \leq X \leq 558) = 0.8982\\
