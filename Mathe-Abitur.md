@@ -183,6 +183,13 @@ k=-5
 \end{vmatrix}
 $$
 # Stochastik
+
+
+## Empirische Standardabweichung
+$$
+\overline{s} = \sqrt{p_{1} \cdot (x_{1}-\overline{x})^{2}+p_{2} \cdot (x_{2}-\overline{x})^{2}+p_{3} \cdot (x-\overline{x})^{3}+...}
+$$
+
 ## Erwartungswert
 $$
 E(x) = 1 \cdot P(X = 1) + 2 \cdot P(X = 2) + 3 \cdot P(X = 3) + ...
@@ -211,11 +218,6 @@ $$
 |$A$|$0.21$|$0.49$|$0.7$|
 |$\overline{A}$|$0.06$|$0.24$|$0.3$|
 ||$0.27$|$0.73$|$1$|
-
-## Empirische Standardabweichung
-$$
-\overline{s} = \sqrt{p_{1} \cdot (x_{1}-\overline{x})^{2}+p_{2} \cdot (x_{2}-\overline{x})^{2}+p_{3} \cdot (x-\overline{x})^{3}+...}
-$$
 
 ## Sigma-Regeln
 **Intervalle abschätzen für σ > 3**
