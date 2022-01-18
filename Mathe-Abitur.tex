@@ -1,38 +1,159 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
 \begin{document}
 \pagestyle{headings}
 \section*{Kurvendiskussion}
-\subsection*{Übersicht}
-\begin{enumerate}
-	\item Definitionsbereich:
-	\item Symetrie:
+	\subsection*{Übersicht}
 		\begin{enumerate}
-			\item Achsensymetrie: $f(x)=f(-x)$
-			\item Punktsymetrie: $f(-x) = -f(x)$
+			\item Definitionsbereich:
+			\item Symetrie:
+				\begin{enumerate}
+					\item Achsensymetrie: $f(x)=f(-x)$
+					\item Punktsymetrie: $f(-x) = -f(x)$
+				\end{enumerate}
+			\item Achsenschnittpunkt:
+				\begin{enumerate}
+					\item y-Achse: $f(0)$
+					\item x-Achse/Nullstellen: $f(x)=0$
+				\end{enumerate}
+			\item Extrempunkte:
+				\begin{enumerate}
+					\item Notwendige Bedingung: $f^{\prime}(x)=0$
+					\item Hinreichende Bedingung: $f^{\prime}(x)=0 \ \& f^{\prime\prime}(x) \neq0$
+					\item Hochpunkt: $f^{\prime\prime}(x) < 0$
+					\item Tiefpunkt: $f^{\prime\prime}(x)>0$
+				\end{enumerate}
+			\item Wendepunkte:
+				\begin{enumerate}
+					\item Notwendige Bedingung: $f^{\prime\prime}(x)=0$
+					\item Hinreichende Bedingung: $f^{\prime\prime}(x)=0 \ \& f^{\prime\prime\prime}(x) \neq0$
+					\item Links-Rechts-Wendepunkt: $f^{\prime\prime\prime}(x) < 0$
+					\item Rechts-Links-Wendepunkt: $f^{\prime\prime\prime}(x)>0$
+				\end{enumerate}
+			\item Sattelpunkt:
+				\begin{enumerate}
+					\item Notwendige Bedingung: $f^{\prime}(x)=0$
+					\item Hinreichende Bedingung: $f^{\prime\prime}(x)=0$
+				\end{enumerate}
 		\end{enumerate}
-	\item Achsenschnittpunkt:
-		\begin{enumerate}
-			\item y-Achse: $f(0)$
-			\item x-Achse/Nullstellen: $f(x)=0$
-		\end{enumerate}
-	\item Extrempunkte:
-		\begin{enumerate}
-			\item Notwendige Bedingung: $f^{\prime}(x)=0$
-			\item Hinreichende Bedingung: $f^{\prime}(x)=0 \ \& f^{\prime\prime}(x) \neq0$
-			\item Hochpunkt: $f^{\prime\prime}(x) < 0$
-			\item Tiefpunkt: $f^{\prime\prime}(x)>0$
-		\end{enumerate}
-	\item Wendepunkte:
-		\begin{enumerate}
-			\item Notwendige Bedingung: $f^{\prime\prime}(x)=0$
-			\item Hinreichende Bedingung: $f^{\prime\prime}(x)=0 \ \& f^{\prime\prime\prime}(x) \neq0$
-			\item Links-Rechts-Wendepunkt: $f^{\prime\prime\prime}(x) < 0$
-			\item Rechts-Links-Wendepunkt: $f^{\prime\prime\prime}(x)>0$
-		\end{enumerate}
-	\item Sattelpunkt:
-		\begin{enumerate}
-			\item Notwendige Bedingung: $f^{\prime}(x)=0$
-			\item Hinreichende Bedingung: $f^{\prime\prime}(x)=0$
-		\end{enumerate}
-\end{enumerate}
+	\subsection*{Nullstellen}
+		\subsubsection*{PQ-Formel}
+			$$
+x_{1, 2} = - \frac{P}{2} \pm \sqrt{\frac{p^{2}}{4}-4}
+			$$
+		\subsubsection*{Quadratische Ergänzung}
+			binomische Formeln:
+				\begin{enumerate}
+					\item $(a+b)^{2} = 2a^{2}+2ab+b^{2}$
+					\item $(a-b)^{2} = 2a^{2}-2ab+b^{2}$
+					\item $(a+b)^{2}*(a-b)^{2}  = a^{2}-b^{2}$
+				\end{enumerate}
+		\subsubsection*{Wendepunkte}
+			\begin{enumerate}
+				\item Notwendige Bedingung: $f^{\prime\prime}(x)=0$
+				\item Hinreichende Bedingung: $f^{\prime\prime\prime}(x)=+\neq0 \rightarrow rechts-links-Wendepunkt´$
+				\item Einsetzen in f(x): $f(x)=a$
+			\end{enumerate}
+\section*{Vektoren}
+	\subsection*{Skalarprodukt}
+		$$
+		\vec{AB} \cdot \vec{AC} = 
+		\begin{pmatrix} 
+			x_{1} \\
+			x_{2} \\
+			x_{3} 
+		\end{pmatrix}
+		\cdot 
+		\begin{pmatrix} 
+			y_{1} \\
+			y_{2} \\
+			y_{3}
+		\end{pmatrix} = x_{1} \cdot y_{1}+x_{2} \cdot y_{2}+x_{3} \cdot y_{3}
+		$$
+		Wenn das Skalarprodukt:
+			\begin{itemize}
+				\item $=0 \text{ ist} \rightarrow \text{Die Vektoren liegen } \textbf{orthogonal } \text{zueinander/90°}$
+				\item $\neq 0 \text{ist} \rightarrow \text{Die Vektoren liegen } \textbf{nicht } \text{orthogonal zueinander}$
+			\end{itemize}
+	\subsection*{Lage zweier Geraden zueinander bestimmen}
+	\subsection*{Mittelpunkt einer Geraden bestimmen}
+		$$
+\vec{m} = \frac{1}{2}*(\vec{b}+\vec{c})=\frac{1}{2}*
+\begin{pmatrix}
+\begin{pmatrix} 
+x_{1}+y_{1} \\
+x_{2}+y_{2} \\
+x_{3}+y_{3}
+\end{pmatrix}
+\end{pmatrix}
+$$
+	\subsection*{Längenformel eines Vektors}
+		$$
+\sqrt{a^{2}+b^{2}+c^{2}}
+$$
+		\textbf{Beispiel:}
+		$$
+\sqrt{2^{2}+2^{2}+(-1)^{2}}=
+\sqrt{4+4+1}=
+\sqrt{9}=3
+$$
+	\subsection*{Punktprobe}
+		$$
+\begin{pmatrix} 
+a_{1} \\
+a_{2} \\
+a_{3}
+\end{pmatrix}+k*
+\begin{pmatrix} 
+b_{1} \\
+b_{2} \\
+b_{3}
+\end{pmatrix}=
+\begin{pmatrix} 
+c_{1} \\
+c_{2} \\
+c_{3}
+\end{pmatrix} \rightarrow
+\begin{vmatrix}
+a_{1}+b_{1}*k=c_{1} \\
+a_{2}+b_{1}*k=c_{2} \\
+a_{3}+b_{1}*k=c_{3}
+\end{vmatrix} \rightarrow
+\begin{vmatrix}
+k=x \\
+k=y \\
+k=z
+\end{vmatrix}
+$$
+		\textbf{Beispiel:}
+			$$
+\begin{pmatrix} 
+-2 \\
+3 \\
+1
+\end{pmatrix}+k*
+\begin{pmatrix} 
+2 \\
+-5 \\
+7
+\end{pmatrix}=
+\begin{pmatrix} 
+-12 \\
+23 \\
+-34
+\end{pmatrix} \rightarrow
+\begin{vmatrix}
+-2+2*k=-12\\
+3-5*k=23\\
+1+7*k=-34
+\end{vmatrix} \rightarrow
+\begin{vmatrix}
+k=-5 \\
+k=-4 \\
+k=-5
+\end{vmatrix}
+$$
+\section*{Stochastik}
+	\subsection*{Empirische Standardabweichung}
+			
 \end{document}
