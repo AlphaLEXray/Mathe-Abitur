@@ -1,0 +1,20 @@
+# Themen des Mahtematik Abiturs 2022 -  Checkliste
+- [ ] Kurvendiskussion
+	- [ ] Nullstellen
+	- [ ] Extrempunkte
+	- [ ] Wendepunkte
+	- [ ] Globalverlauf
+	- [ ] Definitionsbereich
+- [ ] Vektoren
+	- [ ] Skalarprodukt
+- [ ] Integrale
+- [ ] E-Funktionen
+- [ ] Stochastik
+	- [ ] Vier-Felder-Tafel
+	- [ ] Pfadregeln
+	- [ ] Erwartungswert
+	- [ ] Binomialkoeffizient
+	- [ ] Empirische Standardabweichung
+	- [ ] Sigma-Regeln
+		- [ ] Erwartungswert μ
+		- [ ] Standardabweichung
