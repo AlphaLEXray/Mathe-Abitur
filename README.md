@@ -1,7 +1,7 @@
 # README
 
 **Wichtig**:  
-Die aktuellste Version dieses Dokumentes ist [Mathe-Abitur.pdf](Mathe-Abitur.pdf). Dies kann man sich entweder auf GitHub anschauen oder herunterladen. Das [Markdowndokument](#markdown) steht immer noch zur Verfügung wird aber nicht mehr aktualisiert.
+Die aktuellste Version dieses Dokumentes ist [Mathe-Abitur.pdf](Mathe-Abitur.pdf). Dies kann man sich entweder auf GitHub anschauen oder herunterladen. Das Markdowndokument (siehe **Markdown**) steht immer noch zur Verfügung wird aber nicht mehr aktualisiert.
 
 **Hinweise**:  
 Aktuell wird noch die Punktschreibweise verwendet, statt die Kommaschreibweise.
