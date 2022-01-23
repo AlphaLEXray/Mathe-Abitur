@@ -1,0 +1,83 @@
+\section{Stochastik}
+	\subsection{Empirische Standardabweichung}
+		$$ \overline{s} = \sqrt{p_{1} \cdot (x_{1}-\overline{x})^{2}+p_{2} \cdot (x_{2}-\overline{x})^{2}+p_{3} \cdot (x-\overline{x})^{3}+...} $$
+	\subsection{Erwartungswert}
+		$$ E(x) = 1 \cdot P(X = 1) + 2 \cdot P(X = 2) + 3 \cdot P(X = 3) + ... $$
+	\subsection{Binomialkoeffizient}
+$$
+\binom{n}{k} =  \frac{n!}{k!\,(n-k)!}
+$$
+
+$$
+\text{binomPDF: } P(X=Y) = \binom{n}{k} \cdot p^{k} \cdot (1-p)^{n-k}
+$$
+
+$$
+\text{binomCDF: } P(X\leq Y) = p(x=y) + p(x=y-1) + ... + p(x=y-y)
+$$
+	\subsection{Vier-Felder-Tafel}
+	\begin{center}
+	\begin{tabular}{|c|c|c|c|}
+	\hline 
+	 & $B$ & $\overline{B}$ &  \\ 
+	\hline
+	$A$ & Wahrscheinlichkeit $AB$ & Wahrscheinlichkeit $A\overline{B}$ & Wahrscheinlichkeit $A$ \\ 
+	\hline
+	$\overline{A}$ & Wahrscheinlichkeit $\overline{A}B$ & Wahrscheinlichkeit $\overline{AB}$ & Wahrscheinlichkeit $\overline{A}$ \\ 
+	\hline
+	 & Wahrscheinlichkeit $B$ & Wahrscheinlichkeit $\overline{B}$ & $1$ \\ 
+	\hline 
+	\end{tabular} 
+	\end{center}
+	\textbf{Beispiel:} \\
+	\\
+	\begin{tabular}{|c|c|c|c|}
+	\hline 
+	 & $B$ & $\overline{B}$ &  \\ 
+	\hline
+	$A$ & $0.21$ & $0.49$ & $0.7$ \\ 
+	\hline
+	$\overline{A}$ & $0.06$ & $0.24$ & $0.3$ \\ 
+	\hline
+	 & $0.27$ & $0.73$ & $1$ \\ 
+	\hline 
+	\end{tabular}
+	\subsection{Sigma-Regeln}
+	\subsubsection{Intervalle abschätzen für sigma}
+	\begin{center}
+	$90\% \rightarrow 1.64 \cdot \sigma$ \\
+	$95\% \rightarrow 1.96 \cdot \sigma$ \\
+	$99\% \rightarrow 2.58 \cdot \sigma$
+	\end{center}
+	
+	\subsection{Erwartungswert}
+	$$ \mu = n \cdot p $$
+	\subsection{Standardabweichung}
+	$$ \sigma = \sqrt{n \cdot p \cdot (1-p)} $$
+	\subsection{Sigma-Regeln andwenden für }
+		\begin{enumerate}
+			\item Gegeben: n, p
+			\item $ \mu = n \cdot p$
+			\item $\sigma = \sqrt{n \cdot p \cdot (1-p)}$ $\rightarrow$ Wenn $\sigma >$ 3 ist:
+			\begin{enumerate}
+				\item $1.64 \cdot \sigma = d$
+				\item $\mu -d \leq X \leq \mu + d$
+				\item $P(\mu + d (aufrunden) < X <\mu + d (abrunden))$
+				\item $P(\mu + d (abrunden) < X <\mu + d (aufrunden))$
+				\item Hinweis: Dies kann mit dem binomCDF befehl des CAS berechnet berechnet werden.
+				\item Das Ergebnis welches am nächsten über 0.9 liegt ist das bessere Ergebnis
+			\end{enumerate}
+		\end{enumerate}
+	\textbf{Beispiel:}
+	\begin{enumerate}
+			\item Gegeben: $n = 920$,  $p = 58$
+			\item $ \mu = 920 \cdot 0.58 = 533.6$
+			\item $\sigma = \sqrt{920 \cdot 0.58 \cdot (0.42)} = 14.9703$ $\rightarrow$ Wenn $\sigma$ > 3 ist:
+			\begin{enumerate}
+				\item $1.64 \cdot 14.9703 = 24.5513$
+				\item $533.6 - 24.5513 \leq X \leq 533.5 + 24.5513 \rightarrow 509.0487 \leq X \leq 558.1513$
+				\item $P(510 < X < 558) = 0.8982$
+				\item $P(509 < X <559) = 0.9114$
+				\item $\rightarrow$ Das richtige Ergebnis ist $P(509 \leq X \leq 559)$
+			\end{enumerate}
+		\end{enumerate}
