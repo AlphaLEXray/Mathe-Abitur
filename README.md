@@ -11,3 +11,11 @@ Eine Checkliste für die verschiedenen Themen ist in der Datei *Themen-Checklist
 
 ## Markdown
 Das Markdowndokument [Mathe-Abitur.md](Mathe-Abitur.md) verwendet *KaTex* für die Formeln, weshalb es nicht richtig auf GitHub dargestellt wird. Am besten den Inhalt der Datei in einen anderen Markdown-Editor kopieren (wie zum Beispiel [Joplin](https://joplinapp.org/)).
+
+## Bearbeitung der Dateien
+Die Dateien zu bearbeiten ist relativ einfach und kann in wenigen Schritten gemacht werden.
+
+1. [Visual Studio Code](https://code.visualstudio.com/) oder [VSCodium](https://vscodium.com/) herunterladen
+2. Die LaTeX Workshop Extension installieren
+3. Die ```"latex-workshop.latex.outDir": "build"``` zu ```settings.json``` hinzufügen (damit die Dateien von LaTeX Workshop keinen Konflikt mit Git kereieren). Wo man  ```settings.json``` findet wird [hier](https://supunkavinda.blog/vscode-editing-settings-json) erklärt.
+4. Als letzten Schritt noch den Ordner in Visual Studio Code oder VSCodium öffnen und bearbeiten.
