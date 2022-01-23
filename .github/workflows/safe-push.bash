@@ -6,4 +6,5 @@ then
 rm -rf build
 git pull
 git push
+mkdir build
 fi
