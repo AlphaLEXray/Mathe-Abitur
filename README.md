@@ -27,3 +27,12 @@ Um vs-setup.bash auszuführen einfach:
 2. Das Repository clonen mit ```git clone https://github.com/AlphaLEXray/Mathe-Abitur.git``` (falls git noch nicht installiert ist gibt es [hier](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git) eine gute Anleitung)
 3. In den Mathe-Abitur Ordner naviegieren mit ```cd Mathe-Abitur```
 4. Das Skript mit ```./vs-setup.bash``` ausführen
+
+## Darkmode
+Falls man das Dokument im Darkmode lesen möchte muss man einfach
+```tex
+\usepackage[dvipsnames]{xcolor}
+\pagecolor{black}
+\color{white}% set the default colour to white
+```
+unter ```\documentclass{article}``` einfügen.
