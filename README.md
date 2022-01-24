@@ -26,4 +26,4 @@ Um vs-setup.bash auszuführen einfach:
 1. Eine Konsole öffnen (mit ```strg+alt+t```)
 2. Das Repository clonen mit ```git clone https://github.com/AlphaLEXray/Mathe-Abitur.git``` (falls git noch nicht installiert ist gibt es [hier](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git) eine gute Anleitung)
 3. In den Mathe-Abitur Ordner naviegieren mit ```cd Mathe-Abitur```
-4. Das Script mit ```./vs-setup.bash``` ausführen
+4. Das Skript mit ```./vs-setup.bash``` ausführen
