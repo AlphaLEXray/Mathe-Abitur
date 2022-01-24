@@ -28,16 +28,21 @@ then
     echo Codium
     if [ $dirvar == 0 ]
     then
-        # Installation based on the VSCodium installation guide: https://vscodium.com/#install
-        wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
-        | gpg --dearmor \
-        | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+        dpkg -s snap &> /dev/null
+        if [ $? -ne 0  ]
+        then
+            snap install codium --classic
+        else
+            # Installation based on the VSCodium installation guide: https://vscodium.com/#install
+            wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+            | gpg --dearmor \
+            | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
 
-        echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
-        | sudo tee /etc/apt/sources.list.d/vscodium.list
+            echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
+            | sudo tee /etc/apt/sources.list.d/vscodium.list
 
-        sudo apt update && sudo apt install codium
-
+            sudo apt update && sudo apt install codium
+        fi
         codium --install-extension James-Yu.latex-workshop
         touch ~/.config/VSCodium/User/settings.json
 
