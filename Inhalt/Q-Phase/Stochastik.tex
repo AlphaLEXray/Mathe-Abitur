@@ -81,3 +81,45 @@ $$
 				\item $\rightarrow$ Das richtige Ergebnis ist $P(509 \leq X \leq 559)$
 			\end{enumerate}
 		\end{enumerate}
+	\subsection{Histogramme}
+	Histogramme stellen die Wahrscheinlichkeit einer Anzahl von Treffern graphisch dar. Sie sehen Glockenförmig aus wobei die Spitze den Erwartungswert darstellt, welcher die größte Wahrscheinlichkeit besitzt. Die y-Achse gibt die Wahrscheinlichkeit an, während die x-Achse die Anzahl der Ereignisse bzw. Treffer angibt.
+	\subsubsection{Beispiel}
+	\begin{itemize}
+		\item n = 15
+		\item p = 0.38
+	\end{itemize}
+	\begin{tikzpicture}
+		\begin{axis}[
+		symbolic x coords={$0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $10$, $11$, $12$, $13$, $14$, $15$},
+		xtick=data]
+		\addplot[ybar,fill=blue] coordinates {
+			($0$, 0.000768909705)
+			($1$, 0.007069008578)
+			($2$, 0.030328327124)
+			($3$, 0.080549427953)
+			($4$, 0.148107012687)
+			($5$, 0.199705584849)
+			($6$, 0.20400032861)
+			($7$, 0.160756019319)
+			($8$, 0.098527882808)
+			($9$, 0.046968488937)
+			($10$, 0.017272283029)
+			($11$, 0.004811926357)
+			($12$, 0.000983081729)
+			($13$, 0.000139046299)
+			($14$, 0.000012174561)
+			($15$, 0.00000497455)
+		};
+		\end{axis}
+		\end{tikzpicture}
+	\subsubsection{Wahrscheinlichkeiten - y-Achse}
+	Die y-Achse gibt die Wahrscheinlichkeit für das eintreten des Ereignisses der x-Achse an.
+	
+	\subsubsection{Ereignisse/Treffer - x-Achse}
+	Die x-Achse gibt die Ereignisse bzw. die Anzahl der Treffer an.
+	
+	\subsubsection{Erwartungswert im Histogramm}
+	Der Erwartungswert im Histogramm wird dadurch gekennzeichnet, dass er die höchste Säule besitzt. Er ist das Produkt aus der Wahrscheinlichkeit und n, also die Anzahl der Möglichkeiten.
+
+	\subsubsection{Histogramme in Klausuren}
+	Im Prüfungsteil A der Klausuren können Aufgaben drankommen wo man verschiedene Histogramme vor dem Hintergrund gegebener Kriterien bewerten soll. Bei solchen Aufgaben muss man meistens auf die 3 oben genannten Merkmale eines Histogramms achten. Entweder es gibt Wahrscheinlichkeiten für x-Werte die außerhalb des in der Aufgabenstellung definierten Bereiches liegen. \textbf{ODER} Die Summe aller Wahrscheinlichkeiten im Histogramm sind über 1. Dies ist bei korrekten Histogrammen keine Möglichkeit weshalb das Histogramm falsch ist und den in der Aufgabenstellung beschriebenen Kontext nicht darstellen. \textbf{ODER} Der Erwartungswert liegt nicht an der richtigen Stelle. \textbf{ODER} Eine Kombination von diesen drei Faktoren ist der Fall bzw. in verschiedenen Histogrammen vorhanden. Dies ist keine ausführliche Liste von Merkmalen die man bei Histogrammen analysieren kann, aber diese sind meistens die wichtigsten bei den Aufgaben in Klausuren.
